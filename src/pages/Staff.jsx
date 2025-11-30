@@ -27,12 +27,6 @@ const staffData = [
     ],
   },
   {
-    emri: "Ismet Peci",
-    titulli: "",
-    lendet: ["Gjuhë shqipe"],
-  },
-
-  {
     emri: "Arjeta Segaqa",
     titulli: "Mësimdhënëse e Gjuhës Shqipe",
     lendet: ["Gjuhë shqipe"],
