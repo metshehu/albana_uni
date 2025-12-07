@@ -12,7 +12,7 @@ const staffData = [
   { emri: "Ajet Musa", titulli: "Telekomunikacion" },
   { emri: "Albana Koliqi Bajraktari", titulli: "Gjeologji" },
   { emri: "Arjeta Segaqa", titulli: "Gjuhë shqipe" },
-  { emri: "Bashkim Koliqi", titulli: "ArkitekturArkitekturëë" },
+  { emri: "Bashkim Koliqi", titulli: "Arkitekturë" },
   { emri: "Bekim Kelmendi", titulli: "Gjuhë angleze" },
   { emri: "Besart Alloqi", titulli: "Gjuhë shqipe" },
   { emri: "Burbuqe Asllani", titulli: "Shkenca kompjuterike" },
