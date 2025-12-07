@@ -60,6 +60,7 @@ export default function Header() {
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-300 hover:text-blue-400">Ballina</Link>
+            <Link to="/historiku" className="text-gray-300 hover:text-blue-400">Historiku</Link>
 
             {/* DROPDOWN */}
             <div
@@ -117,7 +118,7 @@ export default function Header() {
 
             <Link to="/staff" className="text-gray-300 hover:text-blue-400">Stafi</Link>
             <Link to="/moodle" className="text-gray-300 hover:text-blue-400">Moodle</Link>
-            <Link to="/Reth Nesh" className="text-gray-300 hover:text-blue-400">Rreth Nesh</Link>
+            <Link to="/reth-nesh" className="text-gray-300 hover:text-blue-400">Rreth Nesh</Link>
           </nav>
 
           {/* MOBILE BUTTON */}
@@ -134,7 +135,11 @@ export default function Header() {
           {/* PAGE 1 */}
           {!drejtimeOpen && (
             <>
-              <Link to="/" className="block text-white py-2">Ballina</Link>
+              <Link to="/" onClick={toggleMenu} className="block text-white py-2">Ballina</Link>
+
+              <Link to="/historiku" onClick={toggleMenu} className="block text-white py-2">
+                Historiku
+              </Link>
 
               <button
                 onClick={() => setDrejtimeOpen(true)}
@@ -143,9 +148,9 @@ export default function Header() {
                 Drejtimet
               </button>
 
-              <Link to="/staff" className="block text-white py-2">Stafi</Link>
-              <Link to="/moodle" className="block text-white py-2">Moodle</Link>
-              <Link to="/Reth Nesh" className="block text-white py-2">Rreth Nesh</Link>
+              <Link to="/staff" onClick={toggleMenu} className="block text-white py-2">Stafi</Link>
+              <Link to="/moodle" onClick={toggleMenu} className="block text-white py-2">Moodle</Link>
+              <Link to="/reth-nesh" onClick={toggleMenu} className="block text-white py-2">Rreth Nesh</Link>
             </>
           )}
 

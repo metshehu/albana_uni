@@ -1,330 +1,108 @@
 import React from "react";
-
 import Header from "../componets/Headers";
+
 const staffData = [
   {
-    emri: "Ajet Musa",
-    titulli:
-      "Master i Shkencave të Inxhenierisë Elektrike, Programi Telekomunikacion",
-    lendet: [
-      "Bazat e telekomunikacionit",
-      "Telefoni celular",
-      "Praktikë profesionale 2",
-    ],
+    emri: "Jeton Hajdari ", 
+    titulli: "U.D. Drejtor",
   },
-  {
-    emri: "Albana Koliqi Bajraktari",
-    titulli: "MSc. Gjeologji",
-    lendet: [
-      "Hartografim gjeologjik",
-      "Hartografim topografik",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Arjeta Segaqa",
-    titulli: "Mësimdhënëse e Gjuhës Shqipe",
-    lendet: ["Gjuhë shqipe"],
-  },
-  {
-    emri: "Bashkim Koliqi",
-    titulli: "Inxhinier i diplomuar i Ndërtimtarisë / MSc. Ndërtimtari",
-    lendet: [
-      "Konstruksione ndërtimore",
-      "Materiale ndërtimore",
-      "AutoCAD",
-      "Konstruksionet e betonit, çelikut dhe drurit",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Bekim Kelmendi",
-    titulli: "Bachelor i Gjuhës dhe Letërsisë Angleze",
-    lendet: ["Gjuhë angleze", "Gjuhë gjermane"],
-  },
-  {
-    emri: "Besart Alloqi",
-    titulli: "Bachelor – Gjuhë dhe Letërsi Shqipe",
-    lendet: ["Gjuhë shqipe"],
-  },
-  {
-    emri: "Burbuqe Asllani",
-    titulli: "MSc. Shkenca kompjuterike dhe inxhinieri",
-    lendet: [
-      "Materiale elektroteknike",
-      "Vizatim teknik",
-      "Praktikë profesionale",
-      "TIK",
-    ],
-  },
-  {
-    emri: "Diellza Habibaj",
-    titulli: "Master në Kimi",
-    lendet: ["Kimi"],
-  },
-  {
-    emri: "Daim Musa",
-    titulli: "Bachelor Fizikë – Kimi",
-    lendet: ["Kimi", "Fizikë", "Praktikë profesionale"],
-  },
-  {
-    emri: "Drita Behrami",
-    titulli: "Master - Inxhinieri dhe Teknologji",
-    lendet: [
-      "Bazat e Teknologjisë Ushqimore",
-      "Teknologjia e përpunimit të drithërave dhe brumit",
-      "Teknologjia e përpunimit të mishit",
-      "Kontrolli i cilësisë së produkteve ushqimore",
-    ],
-  },
-  {
-    emri: "Fatime Avdullahu",
-    titulli: "Bachelor i Gjuhës dhe Letërsisë Angleze",
-    lendet: ["Gjuhë angleze"],
-  },
-  {
-    emri: "Fatmire Gërxhaliu",
-    titulli: "Profesor i Matematikës",
-    lendet: ["Matematikë"],
-  },
-  {
-    emri: "Gazmend Dauti",
-    titulli: "Master i shkencave të inxhenierisë mekanike",
-    lendet: [
-      "Njohuri për automjete",
-      "Hidraulikë dhe pneumatikë",
-      "Termodinamikë",
-      "Vizatim me kompjuter - CAD",
-      "Programimi me makinat CAD - CAM",
-      "Diagnostifikimi i automjeteve",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Gresa Kurti Çimili",
-    titulli: "MSc. Inxhinieri dhe Teknologji Ushqimore",
-    lendet: ["Teknologji ushqimore"],
-  },
-  {
-    emri: "Gezim Berisha",
-    titulli:
-      "MSc. – Shkenca teknike (Metalurgji dhe Elektroteknikë) / Megatron",
-    lendet: [
-      "Lëndë profesionale në metalurgji",
-      "Lëndë profesionale në elektroteknikë",
-    ],
-  },
-  {
-    emri: "Hasan Mustafa",
-    titulli: "Master Inxhinier i diplomuar i arkitekturës",
-    lendet: [
-      "Kompozicione arkitektonike",
-      "Elementet e projektimit",
-      "Gjeometri dhe perspektivë",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Hetem Musa",
-    titulli: "Inxhinier i diplomuar i Makinerisë",
-    lendet: ["Praktikë profesionale", "Mekanikë teknike"],
-  },
-  {
-    emri: "Isa Haxhiu",
-    titulli: "Mr.sc. Shkencave Teknike – Teknologji Inorganike",
-    lendet: ["Kimi"],
-  },
-  {
-    emri: "Jeton Gashi",
-    titulli: "Beçelor i matematikës",
-    lendet: ["Matematikë"],
-  },
-  {
-    emri: "Jeton Hajdari U.D. Drejtor i SHMLT “Arkitekt Sinani” ",
-    titulli: "Master i shkencave teknike ",
-    lendet: [
-      "Matje dhe kontrollë",
-      "Teknologjia e instalimit të ngrohjes dhe klimatizimit",
-      "Mekanikë teknike",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Kumrije Zeka",
-    titulli: "MSc. Teknologji prodhuese, profili i prerjes",
-    lendet: [
-      "Teknologjia e profesionit",
-      "Praktikë profesionale",
-      "Mekanikë teknike",
-      "Materialet teknike",
-      "Teknikat e matjes",
-    ],
-  },
-  {
-    emri: "Lindita Muja",
-    titulli: "Master i Shkencave Kompjuterike dhe Inxhinieri",
-    lendet: ["Informatikë"],
-  },
-  {
-    emri: "Muhedin Ibishi",
-    titulli: "Master i shkencave në makineri",
-    lendet: [
-      "Detalet e makinave",
-      "Bazat e makinerisë",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Naim Istrefi",
-    titulli: "Fakulteti SHMN, Kordinator i sigurimit të cilësisë",
-    lendet: [],
-  },
-  {
-    emri: "Naser Zeqiri",
-    titulli: "Inxhinier i diplomuar i Makinerisë",
-    lendet: [
-      "Detalet e makinave",
-      "Vizatim teknik",
-      "Teknikat e përpunimit të metaleve II",
-      "Praktikë profesionale – dirigjimi kompjuterik i makinave",
-    ],
-  },
-  {
-    emri: "Njazi Gërguri",
-    titulli: "Inxhinier i diplomuar makinerisë, Drejtimi komunikacion",
-    lendet: [
-      "Bazat e transportit rrugor",
-      "Rrugët dhe objektet rrugore",
-      "Shenjat e trafikut dhe sinjalizimet rrugore",
-      "Rregullimi i trafikut rrugor",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Nedime Dobreva",
-    titulli: "Master i shkencave në shkencat inxhinierike dhe kompjuterikë",
-    lendet: [
-      "T.I.K.",
-      "Praktikë profesionale",
-      "Sisteme komutuese",
-      "Bazat e të dhënave",
-    ],
-  },
-  {
-    emri: "Nexhet Hasani",
-    titulli: "Master i Kulturës Fizike, Sport dhe Rekreacion",
-    lendet: ["Edukatë fizike, sportet dhe shëndeti"],
-  },
-  {
-    emri: "Qendresa Hasani",
-    titulli: "Master gjuhë angleze",
-    lendet: ["Gjuhë angleze"],
-  },
-  {
-    emri: "Sadije Melenica",
-    titulli: "Master Inxhinier i diplomuar elektroteknikë",
-    lendet: [
-      "Bazat e elektroteknikës",
-      "Implementimi i sekuencave të programeve procedurale",
-      "Krijimi dhe publikimi i webfaqeve",
-      "Përpunimi dhe evaluimi i të dhënave",
-      "Praktika profesionale",
-    ],
-  },
-  {
-    emri: "Sejdi Berisha",
-    titulli: "Master i shkencave të inxhenierisë mekanike",
-    lendet: ["Praktikë profesionale", "Siguria në trafikun rrugor"],
-  },
-  {
-    emri: "Sinan Shosholli",
-    titulli: "Master – Gjuhë dhe Letërsi Shqipe",
-    lendet: ["Gjuhë dhe letërsi shqipe"],
-  },
-  {
-    emri: "Skender Sadiku",
-    titulli: "MSc. i Gjeologjisë",
-    lendet: [
-      "Mineralogji",
-      "Petrografi",
-      "Bazat e gjeologjisë",
-      "Praktikë profesionale",
-    ],
-  },
-  {
-    emri: "Sami F. Rama",
-    titulli: "Magjistër i Shkencave Teknike",
-    lendet: [
-      "Furrat metalurgjike",
-      "Përfitimi i metaleve me ngjyrë",
-      "Sigurimi i cilësisë në metalurgji",
-      "Praktika profesionale",
-    ],
-  },
-  {
-    emri: "Sami Voca",
-    titulli: "Beçelor i informatikës inxhinierike",
-    lendet: [
-      "Praktikë profesionale",
-      "T.I.K.",
-      "Sisteme operative",
-      "Gjuhë programuese",
-    ],
-  },
-  {
-    emri: "Teoman Nishliu",
-    titulli: "Inxhinier i diplomuar i Elektroteknikës – Elektronikë/Automatikë",
-    lendet: ["Elektronikë", "Automatikë", "Lëndë profesionale të elektros"],
-  },
-  {
-    emri: "Valentina Baliu",
-    titulli: "Master i shkencave filologjike",
-    lendet: ["Gjuhë shqipe dhe letërsi"],
-  },
-    {
-    emri: "Ismet Peci",
-        titulli : "Shkollimi: Profesor i Matematikës – Shkolla e Lartë Pedagogjike, Fakulteti i Edukimit (Matematikë–Informatikë)",
-        lendet:["Matematikë"],
-        photo:"babaismet.jpeg"
-    },
-    {
-    emri: "Shadije Pllana Hoti",
-        titulli : "Shkollimi:: Bachelor i Programit Parashkollor Pozita Biblotekare ",
-        lendet:[],
-        //photo:"babaismet.jpeg"
-    },
+
+  { emri: "Vehbi Voca ", titulli: "Sekretar" },
+  { emri: "Naim Istrefi", titulli: "Koordinator i cilësisë" },
+  { emri: "Ajet Musa", titulli: "Telekomunikacion" },
+  { emri: "Albana Koliqi Bajraktari", titulli: "Gjeologji" },
+  { emri: "Arjeta Segaqa", titulli: "Gjuhë shqipe" },
+  { emri: "Bashkim Koliqi", titulli: "ArkitekturArkitekturëë" },
+  { emri: "Bekim Kelmendi", titulli: "Gjuhë angleze" },
+  { emri: "Besart Alloqi", titulli: "Gjuhë shqipe" },
+  { emri: "Burbuqe Asllani", titulli: "Shkenca kompjuterike" },
+  { emri: "Diellza Habibaj", titulli: "Kimi" },
+  { emri: "Daim Musa", titulli: "Fizikë" },
+  { emri: "Drita Behrami", titulli: "Teknologji ushqimore" },
+  { emri: "Fatime Avdullahu", titulli: "Gjuhë angleze" },
+  { emri: "Fatmire Gërxhaliu", titulli: "Matematikë" },
+  { emri: "Gazmend Dauti", titulli: "Makineri" },
+  { emri: "Gresa Kurti Çimili", titulli: "Teknologji ushqimore" },
 
   {
-    emri: "Veton Citaku",
-    titulli: "Profesor i kulturës fizike",
-    lendet: ["Edukatë fizike dhe sportet"],
+    emri: "Gezim Berisha",
+    titulli: "Metalurgji dhe elektroteknikë", // keeps metalurgji, normalizes elektro part
   },
+
+  { emri: "Hasan Mustafa", titulli: "Arkitekturë" },
+
+  { emri: "Hilmi Loshi", titulli: "Metalurgji" },
+  { emri: "Hetem Musa", titulli: "Makineri" },
+  { emri: "Isa Haxhiu", titulli: "Kimi - Këshilltar karriere" },
+  { emri: "Jeton Gashi", titulli: "Matematikë" },
+  { emri: "Kumrije Zeka", titulli: "Makineri" },
+  { emri: "Lindita Muja", titulli: "Shkenca kompjuterike" },
+  { emri: "Muhedin Ibishi", titulli: "Makineri" },
+  { emri: "Naser Zeqiri", titulli: "Makineri" },
+
   {
-    emri: "Xhevdet Sadiku",
-    titulli: "Master Inxhinier i diplomuar i gjeologjisë",
-    lendet: [
-      "Gjeologji historike me paleontologji",
-      "Hidrogjeologji",
-      "Shpime kërkimore",
-      "Praktikë profesionale",
-    ],
+    emri: "Njazi Gërguri",
+    titulli: "Trafik rrugor",
   },
+
   {
-    emri: "Xhejlane Mustafa",
-    titulli: "Master kulturës fizike",
-    lendet: ["Edukatë fizike dhe sportet"],
+    emri: "Nedime Dobreva",
+    titulli: "Shkenca kompjuterike",
   },
+
+
+  { emri: "Nexhet Hasani", titulli: "Edukatë fizike" },
+  { emri: "Qendresa Hasani", titulli: "Gjuhë angleze" },
+
+  // already correct
+  { emri: "Sadije Melenica", titulli: "Elektroteknikë" },
+  { emri: "Sadik Begu", titulli: "Makineri" },
+ 
+
   {
-    emri: "Zoja Uka",
-    titulli: "Profesor i Gjuhës dhe Letërsisë Shqipe, Fakulteti Filologjik",
-    lendet: ["Gjuhë shqipe"],
+    emri: "Sejdi Berisha",
+    titulli: "Trafik rrugor",
   },
+
   {
-    emri: "Zade Xhaka",
-    titulli: "Fakulteti Ekonomik, Ekonomiste e diplomuar",
-    lendet: ["Ndërmarrësi"],
+    emri: "Sinan Shosholli",
+    titulli: "Gjuhë shqipe",
   },
+
+  { emri: "Skender Sadiku", titulli: "Gjeologji" },
+  { emri: "Sami Rama", titulli: "Metalurgji" },
+  { emri: "Sami Voca", titulli: "Informatikë" },
+
+  {
+    emri: "Teoman Nishliu",
+    titulli: "Elektroteknikë", // normalized
+  },
+
+  { emri: "Valentina Baliu", titulli: "Gjuhë shqipe" },
+
+
+  { emri: "Ilmi Ahmeti", titulli: "Gjeologji" },
+  {
+    emri: "Ismet Peci",
+    titulli: "Matematikë",
+    photo: "babaismet.jpeg",
+  },
+
+  {
+    emri: "Shadije Pllana Hoti",
+    titulli: "Program parashkollor",
+  },
+
+  { emri: "Veton Citaku", titulli: "Edukatë fizike" },
+  { emri: "Xhevdet Sadiku", titulli: "Gjeologji" },
+
+  { emri: "Xhejlane Mustafa", titulli: "Edukatë fizike" },
+  { emri: "Zoja Uka", titulli: "Gjuhë shqipe" },
+  { emri: "Zade Xhaka", titulli: "Ekonomi" },
 ];
+
+
+
 
 export default function StaffList() {
   return (
@@ -337,7 +115,6 @@ export default function StaffList() {
             key={index}
             className="p-6 border rounded-xl shadow bg-white flex gap-4 items-start"
           >
-            {/* Image only if exists */}
             {staf.photo && (
               <img
                 src={staf.photo}
@@ -349,12 +126,6 @@ export default function StaffList() {
             <div>
               <h2 className="text-xl font-bold">{staf.emri}</h2>
               <p className="text-gray-700 italic">{staf.titulli}</p>
-
-              <ul className="list-disc pl-6 mt-2">
-                {staf.lendet.map((l, i) => (
-                  <li key={i}>{l}</li>
-                ))}
-              </ul>
             </div>
           </div>
         ))}
@@ -362,3 +133,4 @@ export default function StaffList() {
     </>
   );
 }
+

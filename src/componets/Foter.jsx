@@ -25,11 +25,10 @@ export default function Footer() {
 
         {/* Drejtimet */}
         <div>
-          <h3 className="font-semibold text-lg mb-3 text-white">Programet</h3>
+          <h3 className="font-semibold text-lg mb-3 text-white">Fushat Profesionale</h3>
           <ul className="space-y-2 text-sm">
             <li><a href="#makineri" className="hover:text-white"> Makineri, Prodhim dhe Ndërtimtari</a></li>
-            <li><a href="#mekatronike" className="hover:text-white">Automekanik</a></li>
-            <li><a href="#energjetike" className="hover:text-white">eknologji e Informacionit dhe Komunikimit</a></li>
+            <li><a href="#energjetike" className="hover:text-white">Teknologji e Informacionit dhe Komunikimit</a></li>
             <li><a href="#kimia" className="hover:text-white">Agrokulturë, Pylltari, Peshkatari dhe Veterinari</a></li>
           </ul>
         </div>

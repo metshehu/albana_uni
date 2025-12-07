@@ -107,8 +107,10 @@ export default function Drejtime() {
       desc: "Zbulojmë sekretet e Tokës përmes kërkimeve dhe analizave të thelluara, duke ndihmuar në zhvillimin e qëndrueshëm të resurseve natyrore.",
 
       image: [
-        "/kabinetet/Kabineti i Metalurgjisë dhe Gjeologjisë1.jpeg",
+        "/kabinetet/gj1.jpeg",
         "/kabinetet/Kabineti i Metalurgjisë dhe Gjeologjisë2.jpeg",
+
+        "/kabinetet/gj2.jpeg",
       ],
     },
     {
@@ -117,7 +119,8 @@ export default function Drejtime() {
       icon: "⛏️",
       desc: "Nxjerrim pasuritë natyrore me kujdes dhe përgjegjësi, duke respektuar mjedisin dhe standardet e sigurisë në industrinë minerare.",
 
-      image: ["kontnet_mapjgp"],
+      image: [" /kabinetet/kabinet_minera.jpg"," /kabinetet/kabinet_minera2.jpg"],
+
     },
     {
       id: "kimia",
@@ -126,8 +129,8 @@ export default function Drejtime() {
       desc: "Eksperimentojmë dhe krijojmë substanca për të ardhmen. Studentët mësojnë të aplikojnë dijet kimike në industri, mjedis dhe kërkime shkencore.",
 
       image: [
-        "/kabinetet/Laboratori i Kimisë1.jpeg",
-        "/kabinetet/Laboratori i Kimisë2.jpeg",
+        "/kabinetet/kimi1.jpeg",
+        "/kabinetet/kimi2.jpeg",
       ],
     },
     {
