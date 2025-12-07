@@ -144,7 +144,6 @@ export default function Drejtime() {
       image: [
 
         "/kabinetet/Info123.jpeg",
-        "/kabinetet/Informatikës2.jpeg",
       ],
     },
   ];
