@@ -62,8 +62,8 @@ export default function Drejtime() {
       icon: "🔧",
       desc: "Zbërthejmë dhe riparojmë makineri me precizion, pasion dhe përkushtim. Përgatisim profesionistë për industrinë mekanike dhe ndërtimore për një botë në zhvillim të vazhdueshëm.",
       image: [
-        "/kabinetet/Kabineti i Makinerisë CNC1.jpeg",
-        "/kabinetet/Kabineti i Makinerisë CNC2.jpeg",
+        "/kabinetet/km1.jpeg",
+        "/kabinetet/km2.jpeg",
       ],
     },
 
@@ -96,8 +96,8 @@ export default function Drejtime() {
       desc: "Krijojmë bazat e zhvillimit të qyteteve dhe infrastrukturës moderne me përkushtim, saktësi dhe përgjegjësi profesionale.",
 
       image: [
-        "/kabinetet/Kabineti i Instaluesve të Ngrohjes1.jpeg",
-        "/kabinetet/Kabineti i Instaluesve të Ngrohjes2.jpeg",
+        "/kabinetet/ngro1.jpeg",
+        "/kabinetet/ngro2.jpeg",
       ],
     },
     {
