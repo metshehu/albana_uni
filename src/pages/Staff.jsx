@@ -3,11 +3,6 @@ import React from "react";
 import Header from "../componets/Headers";
 const staffData = [
   {
-    emri: "Advije Beka",
-    titulli: "Master në menaxhment dhe informatikë",
-    lendet: ["Matje elektrike", "Instrumentet matëse", "Praktikë profesionale"],
-  },
-  {
     emri: "Ajet Musa",
     titulli:
       "Master i Shkencave të Inxhenierisë Elektrike, Programi Telekomunikacion",
