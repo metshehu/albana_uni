@@ -13,6 +13,8 @@ const staffData = [
   { emri: "Albana Koliqi Bajraktari", titulli: "Gjeologji" },
   { emri: "Arjeta Segaqa", titulli: "Gjuhë shqipe" },
   { emri: "Bashkim Koliqi", titulli: "Arkitekturë" },
+      { emri: "Bastri Hajdari", titulli: "Roje e natës" },
+
   { emri: "Bekim Kelmendi", titulli: "Gjuhë angleze" },
   { emri: "Besart Alloqi", titulli: "Gjuhë shqipe" },
   { emri: "Burbuqe Asllani", titulli: "Shkenca kompjuterike" },
@@ -20,6 +22,10 @@ const staffData = [
   { emri: "Daim Musa", titulli: "Fizikë" },
   { emri: "Drita Behrami", titulli: "Teknologji ushqimore" },
   { emri: "Fatime Avdullahu", titulli: "Gjuhë angleze" },
+      { emri: "Fidan Kamberi", titulli: "Matematikë" },
+  { emri: "Fehmi Voca", titulli: "Punëtor teknik pastrues" },
+      { emri: "Fehmi Uka", titulli: "Punëtor teknik pastrues" },
+
   { emri: "Fatmire Gërxhaliu", titulli: "Matematikë" },
   { emri: "Gazmend Dauti", titulli: "Makineri" },
   { emri: "Gresa Kurti Çimili", titulli: "Teknologji ushqimore" },
@@ -34,9 +40,18 @@ const staffData = [
   { emri: "Hilmi Loshi", titulli: "Metalurgji" },
   { emri: "Hetem Musa", titulli: "Makineri" },
   { emri: "Isa Haxhiu", titulli: "Kimi - Këshilltar karriere" },
+      { emri: "Ili Berisha", titulli: "Teknologji ushqimore - Këshilltar i karrierës" },
+  { emri: "Izet Selaci", titulli: "Punëtor teknik pastrues" },
+      { emri: "Ilir Syla", titulli: "Roje e natës" },
+
+
   { emri: "Jeton Gashi", titulli: "Matematikë" },
   { emri: "Kumrije Zeka", titulli: "Makineri" },
   { emri: "Lindita Muja", titulli: "Shkenca kompjuterike" },
+      { emri: "Lavdim Voca", titulli: "Punëtor teknik pastrues" },
+
+      { emri: "Majlinda Seferi", titulli: "Informatikë" },
+
   { emri: "Muhedin Ibishi", titulli: "Makineri" },
   { emri: "Naser Zeqiri", titulli: "Makineri" },
 
@@ -54,8 +69,12 @@ const staffData = [
   { emri: "Nexhet Hasani", titulli: "Edukatë fizike" },
   { emri: "Qendresa Hasani", titulli: "Gjuhë angleze" },
 
+    { emri: "Ragip Peci", titulli: "Fokist" },
+
   // already correct
   { emri: "Sadije Melenica", titulli: "Elektroteknikë" },
+      { emri: "Selami Januzi", titulli: "Punëtor teknik pastrues" },
+
   { emri: "Sadik Begu", titulli: "Makineri" },
  
 
@@ -79,6 +98,8 @@ const staffData = [
   },
 
   { emri: "Valentina Baliu", titulli: "Gjuhë shqipe" },
+      { emri: "Vesel Neziri", titulli: "Metalurg" },
+
 
 
   { emri: "Ilmi Ahmeti", titulli: "Gjeologji" },
